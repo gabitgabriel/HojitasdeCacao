@@ -1,0 +1,13 @@
+HOJAS/
+dataset_split/
+*.zip
+leafscan_mdd/build/
+leafscan_mdd/.dart_tool/
+leafscan_mdd/.idea/
+leafscan_mdd/android/.gradle/
+leafscan_mdd/android/app/build/
+leafscan_mdd/*.iml
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
