@@ -1,0 +1,38 @@
+{
+  "DISEASED_VSD": {
+    "tipo": "Enfermedad fúngica severa",
+    "agente_causal": "Hongo Vascular Streak Dieback (VSD) / Ceratobasidium theobromae",
+    "sintomas": "Amarillamiento característico en las hojas del medio de las ramas con puntos marrones necróticos. Ocasiona muerte descendente de las ramas y defoliación prematura.",
+    "prevencion": "Podas de ventilación y desinfección estricta de herramientas. Eliminación y quema de ramas infectadas. Uso de clones resistentes y nutrición balanceada."
+  },
+  "Fosforo": {
+    "tipo": "Deficiencia Nutricional (Macroelemento)",
+    "agente_causal": "Falta de Fósforo disponible en el suelo",
+    "sintomas": "Hojas adultas con coloración verde oscuro opaco que se torna púrpura o rojiza en los bordes. Crecimiento lento de las raíces y hojas más pequeñas.",
+    "prevencion": "Aplicación de roca fosfórica o fertilizantes fosfatados en la zona de goteo. Mantenimiento del pH del suelo entre 6.0 y 6.5 para maximizar absorción."
+  },
+  "Fosforo Potasio": {
+    "tipo": "Deficiencia Nutricional Múltiple",
+    "agente_causal": "Falta simultánea de Fósforo (P) y Potasio (K)",
+    "sintomas": "Combinación de bordes necróticos quemados (típicos de K) con tonalidades oscuras purpúreas (típicas de P). Hojas quebradizas y marchitamiento rápido.",
+    "prevencion": "Análisis de suelo completo. Fertilización con NPK balanceado rico en P y K (ej. 12-24-12 o 10-20-20)."
+  },
+  "Nitrogeno": {
+    "tipo": "Deficiencia Nutricional (Macroelemento principal)",
+    "agente_causal": "Deficiencia de Nitrógeno (N)",
+    "sintomas": "Clorosis generalizada (amarillamiento uniforme) comenzando en las hojas más viejas. Desarrollo deficiente de la copa y pérdida de vigor.",
+    "prevencion": "Incorporación de materia orgánica (compost), siembra de leguminosas de cobertura y fertilización nitrogenada."
+  },
+  "Potasio": {
+    "tipo": "Deficiencia Nutricional (Macroelemento)",
+    "agente_causal": "Falta de Potasio disponible en la planta",
+    "sintomas": "Necrosis marginal (bordes de las hojas \"quemados\" de color café seco). Enrollamiento foliar e incapacidad de regular el agua.",
+    "prevencion": "Aplicación de sulfato o cloruro de potasio, reciclaje de cascarilla de cacao rica en potasio."
+  },
+  "Unlabeled": {
+    "tipo": "Desconocido / Sin patrón claro",
+    "agente_causal": "Muestra no identificable o fuera de catálogo",
+    "sintomas": "No se detecta un patrón claro de enfermedad o deficiencia conocido.",
+    "prevencion": "Consultar con un técnico agrónomo o tomar una nueva fotografía con mejor iluminación."
+  }
+}

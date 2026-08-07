@@ -1,0 +1,105 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - lib/generated_plugin_registrant.dart
+  errors:
+    unused_import: warning
+    unused_local_variable: warning
+    dead_code: warning
+    prefer_const_constructors_in_immutables: warning
+    strict_top_level_inference: ignore
+    always_put_required_named_parameters_first: warning
+    unnecessary_lambdas: warning
+  language:
+    strict-casts: false
+    strict-raw-types: false
+    strict-inference: false
+
+linter:
+  rules:
+    - always_declare_return_types
+    - always_put_required_named_parameters_first
+    - always_use_package_imports
+    - prefer_contains
+    - use_named_constants
+    - annotate_overrides
+    - avoid_annotating_with_dynamic
+    - avoid_double_and_int_checks
+    - avoid_empty_else
+    - avoid_init_to_null
+    - use_string_buffers
+    - use_late_for_private_fields_and_variables
+    - avoid_positional_boolean_parameters
+    - avoid_print
+    - avoid_redundant_argument_values
+    - avoid_returning_null_for_void
+    - avoid_setters_without_getters
+    - avoid_types_as_parameter_names
+    - avoid_unnecessary_containers
+    - unnecessary_breaks
+    - unnecessary_raw_strings
+    - use_enums
+    - avoid_unused_constructor_parameters
+    - camel_case_types
+    - cancel_subscriptions
+    - close_sinks
+    - comment_references
+    - constant_identifier_names
+    - control_flow_in_finally
+    - curly_braces_in_flow_control_structures
+    - depend_on_referenced_packages
+    - deprecated_consistency
+    - directives_ordering
+    - empty_catches
+    - empty_constructor_bodies
+    - empty_statements
+    - file_names
+    - no_duplicate_case_values
+    - prefer_collection_literals
+    - prefer_conditional_assignment
+    - prefer_const_literals_to_create_immutables
+    - prefer_const_constructors
+    - prefer_null_aware_method_calls
+    - prefer_null_aware_operators
+    - unnecessary_null_aware_assignments
+    - unnecessary_nullable_for_final_variable_declarations
+    - unnecessary_this
+    - use_super_parameters
+    - use_rethrow_when_possible
+    - use_setters_to_change_properties
+    - prefer_if_elements_to_conditional_expressions
+    - prefer_final_fields
+    - prefer_is_empty
+    - sized_box_for_whitespace
+    - avoid_bool_literals_in_conditional_expressions
+    - avoid_void_async
+    - prefer_for_elements_to_map_fromIterable
+    - no_runtimeType_toString
+    - avoid_multiple_declarations_per_line
+    - unnecessary_async
+    - unnecessary_ignore
+    - unnecessary_overrides
+    - unnecessary_underscores
+    - unnecessary_parenthesis
+    - hash_and_equals
+    - prefer_if_null_operators
+    - unnecessary_null_in_if_null_operators
+    - use_function_type_syntax_for_parameters
+    - unnecessary_library_name
+    - unnecessary_new
+    - use_key_in_widget_constructors
+    - unnecessary_to_list_in_spreads
+    - unnecessary_await_in_return
+    - use_colored_box
+    - use_decorated_box
+    - sized_box_shrink_expand
+    - prefer_iterable_whereType
+    - prefer_final_locals
+    - prefer_const_declarations
+    - literal_only_boolean_expressions
+    - prefer_final_in_for_each
+    - unnecessary_const
+    - prefer_const_constructors_in_immutables
+    - no_logic_in_create_state
